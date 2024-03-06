@@ -16,4 +16,4 @@ else{
     finalprice = price
 }
 
-document.getElementById('outputprice').innerHTML = finalprice;
+document.getElementById('outputprice').innerHTML = finalprice.toPrecision(4);
